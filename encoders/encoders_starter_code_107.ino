@@ -34,5 +34,6 @@ void loop()
 {
   Serial.print("enc count: ");
   Serial.println(encoder_count);
+  delay(200);
 }
 
